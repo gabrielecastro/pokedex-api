@@ -1,10 +1,9 @@
 import './App.css';
+import AppProvider from './context/AppProvider';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <AppProvider />
   );
 }
 
