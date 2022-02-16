@@ -4,10 +4,16 @@ import AppContext from './AppContext';
 
 function AppProvider({ children }) {
   const [pokemonNames, setPokemonNames] = useState([]);
+  const [pokemon, setPokemon] = useState([]);
+  const [inputName, setInputName] = useState('');
 
   const contextValue = {
     pokemonNames,
     setPokemonNames,
+    pokemon,
+    setPokemon,
+    inputName,
+    setInputName,
   };
 
   return (
