@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Table */
+
+.table-pokedex {
+  padding-top: 40px;
+  border: 1px;
+  border-color: black;
+  margin-top: -30px;
+  width: 20%;
+  flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container-table {
+  display: flex; 
+  justify-content: center;
+  align-items: start;
+  margin-top: 10%;
+}
+
+td {
+  background-color: #f5f3f4;
+  padding: 10px;
+  border: 1px solid #f5f3f4;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 5%;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: #ece9e9;
+}
+
+/* Header */
+
+.title-pokemon {
+  text-align: center;
+}
+
+.container-header {
+  background-color: #d8f3dc;
+  padding-bottom: 30px;
+  border: 1px solid #d8f3dc;
+  border-radius: 20px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+/* FilterName */
+
+.container-filter-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -20px;
+  margin-top: 10px;
+}
+
+.input-filter-name {
+  padding: 10px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: #f5f3f4;
+  border: 1px solid #f5f3f4;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+/* Image */
+
+.container-image {
+  display: flex;
+  background-color: #f5f3f4;
+  padding: 100px;
+  border: 1px solid #f5f3f4;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  width: 10%;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.container-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  
+  .input-filter-name {
+    padding: 8px;
+    width: 250px;
+  }
+
+  .table-pokedex {
+    padding-top: 130px;
+  }
+
+  td {
+    font-size: 14px;
+  }
+
+  .container-image {
+    padding: 60px;
+    font-size: 22px;
+    width: 10%;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .container-image img {
+    width: 100px;
+  }
 }
