@@ -2,7 +2,7 @@
 
 ### Contexto
 
-Neste projeto é feita uma requisição à API pokeapi e é renderizada uma tabela com o nome dos 150 primeiros Pokemons. Além disso, é possível filtrar um Pokemon pelo seu nome e ao clicar nele é mostrada sua imagem. 
+Neste projeto é feita uma requisição à API pokeapi e é renderizada uma tabela com o nome dos 150 primeiros Pokemons. Além disso, é possível filtrar um Pokemon pelo seu nome e ao clicar nele é mostrada sua imagem. O layout da aplicação foi pensado tanto pra web quanto pra mobile.
 
 ### Tecnologias usadas
 
