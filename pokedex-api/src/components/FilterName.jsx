@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
 import AppContext from '../context/AppContext';
 
-import { BiAlarm } from "react-icons/bi";
-
 function FilterName() {
   const { pokemonNames } = useContext(AppContext);
   const { inputName, setInputName } = useContext(AppContext);
