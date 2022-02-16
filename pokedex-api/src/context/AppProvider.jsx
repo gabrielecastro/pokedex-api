@@ -6,6 +6,7 @@ function AppProvider({ children }) {
   const [pokemonNames, setPokemonNames] = useState([]);
   const [pokemon, setPokemon] = useState([]);
   const [inputName, setInputName] = useState('');
+  const [pokemonImages, setPokemonImages] = useState('');
 
   const contextValue = {
     pokemonNames,
@@ -14,6 +15,8 @@ function AppProvider({ children }) {
     setPokemon,
     inputName,
     setInputName,
+    pokemonImages,
+    setPokemonImages,
   };
 
   return (
